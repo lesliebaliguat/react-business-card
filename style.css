@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    color: #fff;
+    background-color: #23252C;
+    font-family: 'Inter';
+}
+
+#root {
+    background-color: #1A1B21;
+    max-width: 600px;
+    margin: auto;
+}
+#root>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/** ------ header ------- **/
+header{
+    text-align: center;
+}
+
+.profile-img {
+    height: 317px
+}
+
+.info-name {
+    margin-bottom: 0;
+    font-size: 1.6em;
+    line-height: 1.25em
+}
+
+.info-profession {
+    margin-top: 0.5em;
+}
+
+.info-profession, .info-email {
+    font-size: 0.8em
+}
+
+.info-buttons {
+    border-radius: 8px;
+    border: none;
+    width: 115px;
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: pointer
+}
+
+.info-button-linkedin {
+    background-color: #5093E2;
+    color: #fff
+}
+
+@media (max-width:350px){
+    .info-surname {
+        display: block;
+    }
+}
+
+/** ------ main ------- **/
+main {
+    width: 80%;
+    margin: 2em auto;
+}
+
+
+main h1 {
+    font-size: 1.25rem
+}
+
+main p {
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    font-weight: 300
+}
+
+/** ------ footer ------- **/
+footer {
+    background-color: #161619;
+    text-align: center;
+    padding: 1.5em;
+    width: 100%;
+}
+
+footer a {
+    margin: 0.5em
+}
